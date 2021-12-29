@@ -1,0 +1,40 @@
+{
+  "name": "gltf-info-viewer",
+  "version": "0.1.0",
+  "description": "A single webpage that can show gltf/glb metadata.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openspacing/gltf-info-viewer.git"
+  },
+  "keywords": [
+    "gltf",
+    "glb"
+  ],
+  "author": "onsummer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openspacing/gltf-info-viewer/issues"
+  },
+  "homepage": "https://github.com/openspacing/gltf-info-viewer#readme",
+  "dependencies": {
+    "@douyinfe/semi-icons": "^2.1.5",
+    "@douyinfe/semi-ui": "^2.1.5",
+    "jszip": "^3.7.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@vitejs/plugin-react-refresh": "^1.3.6",
+    "typescript": "^4.5.4",
+    "vite": "^2.7.6",
+    "vite-plugin-importer": "^0.2.5"
+  }
+}
